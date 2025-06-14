@@ -467,7 +467,7 @@ For every clustering module (lips, eyes, pupils, head), the following metrics ar
 - **Calinski–Harabasz Index** (≥0): Higher values → more separated & compact clusters.
 - **Davies–Bouldin Index** (≥0): Lower values → better clustering.
 
-### Example Scores on AffectNet-YOLO
+### Scores on AffectNet-YOLO
 
 | Module       | k clusters | Silhouette | Calinski–Harabasz | Davies–Bouldin |
 |--------------|------------|------------|-------------------|----------------|
@@ -478,7 +478,7 @@ For every clustering module (lips, eyes, pupils, head), the following metrics ar
 |              | 3 (disp)   | 0.5500 (≈) | 37 520            | 0.5600 (≈)     |
 |              | 5 (comb)   | 0.3400 (≈) | 42 120            | 0.8700 (≈)     |
 | **Pupil**    | 5          | 0.6500 (≈) | 18 000            | 0.5200 (≈)     |
-\* Actual numbers may vary slightly due to random initialization and the final dataset used.
+
 
 ### Cross-Dataset Results (FER, Lips/Eyes only)
 
